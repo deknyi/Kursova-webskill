@@ -1,3 +1,7 @@
+header {
+    padding: 15px; 0;
+    border-bottom: 1px solid #ddd;
+}
 nav {
     clear: both;
     height: 84px;
@@ -9,6 +13,12 @@ nav {
 nav ul {
     list-style: none;
     flex-direction: row;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
 }
 
 nav ul li {

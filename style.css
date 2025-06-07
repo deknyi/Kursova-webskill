@@ -118,6 +118,7 @@ h2{
     nav ul {
         align-items: center;
         display: block;
+        flex-direction: row;
     }
 
     nav ul li {
